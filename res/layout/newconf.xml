@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+	<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Name" />	
+	<EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapWords" android:id="@+id/input_name" />
+	
+	<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Conference number" />	
+	<EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="phone" android:id="@+id/input_number" />
+	
+	<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="PIN" />
+	<EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="phone" android:id="@+id/input_pin" />
+	
+	<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/save" android:text="@string/button_save" />
+</LinearLayout>

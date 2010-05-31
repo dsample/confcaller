@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Conf Caller</string>
+<string name="menu_delete">Delete</string>
+<string name="menu_edit">Edit</string>
+<string name="button_save">Save</string>
+<string name="button_cancel">Cancel</string>
+<color name="emptyTextColour">#ffcc00</color>
+<string name="emptyText">No conference numbers defined</string>
+</resources>

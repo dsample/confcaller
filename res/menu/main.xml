@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/newConf"
+          android:title="New Conference Number"
+          android:titleCondensed="New"
+          android:icon="@drawable/ic_menu_add" />
+<!--    <item android:id="@+id/adhoc"
+          android:title="Ad-hoc dialer"
+          android:titleCondensed="Adhoc" /> -->
+	<item android:id="@+id/settingsOption"
+		  android:title="Settings"
+		  android:titleCondensed="Settings" 
+		  android:icon="@drawable/ic_menu_preferences" />
+</menu>
